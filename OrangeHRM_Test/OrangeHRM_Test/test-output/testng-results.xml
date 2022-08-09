@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRM Test Suite" duration-ms="6260" started-at="2021-09-14T03:28:25Z" finished-at="2021-09-14T03:28:31Z">
+    <groups>
+    </groups>
+    <test name="Admin Login Testcase" duration-ms="6260" started-at="2021-09-14T03:28:25Z" finished-at="2021-09-14T03:28:31Z">
+      <class name="orangehrm.tests.AdminLoginTest">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:orangehrm.tests.AdminLoginTest@75412c2f]" name="launchApp" is-config="true" duration-ms="6890" started-at="2021-09-14T08:58:18Z" finished-at="2021-09-14T08:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="checkAdminLogin(java.lang.String, java.lang.String)[pri:0, instance:orangehrm.tests.AdminLoginTest@75412c2f]" name="checkAdminLogin" duration-ms="6231" started-at="2021-09-14T08:58:25Z" finished-at="2021-09-14T08:58:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:orangehrm.tests.AdminLoginTest@75412c2f]" name="closeApp" is-config="true" duration-ms="519" started-at="2021-09-14T08:58:31Z" finished-at="2021-09-14T08:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- orangehrm.tests.AdminLoginTest -->
+    </test> <!-- Admin Login Testcase -->
+  </suite> <!-- OrangeHRM Test Suite -->
+</testng-results>

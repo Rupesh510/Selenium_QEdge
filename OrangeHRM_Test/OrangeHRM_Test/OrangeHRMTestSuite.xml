@@ -1,0 +1,20 @@
+<suite name="OrangeHRM Test Suite">
+	<test name="Admin Login Testcase">
+	<parameter name="uname" value="Admin"></parameter>
+	<parameter name="pword" value="Qedge123!@#"></parameter>
+		<classes>
+			<class name="orangehrm.tests.AdminLoginTest"></class>
+		</classes>
+	</test>
+  	
+	<test name="New Employee Registration Test">
+	<parameter name="fname" value="David1"></parameter>
+	<parameter name="lname" value="Demo"></parameter>	
+		<classes>
+			<class name="orangehrm.tests.EmployeeRegTest"></class>
+		</classes>
+	</test>
+	
+
+	
+</suite>
