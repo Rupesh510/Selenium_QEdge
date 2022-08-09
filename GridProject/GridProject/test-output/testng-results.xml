@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Grid Demo Test Suite" duration-ms="25167" started-at="2021-09-30T03:32:46Z" finished-at="2021-09-30T03:33:11Z">
+    <groups>
+    </groups>
+    <test name="Admin Login Testcase on Chrome" duration-ms="23358" started-at="2021-09-30T03:32:46Z" finished-at="2021-09-30T03:33:09Z">
+      <class name="demos.AdminLoginTest">
+        <test-method status="PASS" signature="checkAdminLogin(java.lang.String)[pri:0, instance:demos.AdminLoginTest@2eee9593]" name="checkAdminLogin" duration-ms="23347" started-at="2021-09-30T09:02:46Z" finished-at="2021-09-30T09:03:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+      </class> <!-- demos.AdminLoginTest -->
+    </test> <!-- Admin Login Testcase on Chrome -->
+    <test name="Admin Login Testcase on Firefox" duration-ms="25167" started-at="2021-09-30T03:32:46Z" finished-at="2021-09-30T03:33:11Z">
+      <class name="demos.AdminLoginTest">
+        <test-method status="PASS" signature="checkAdminLogin(java.lang.String)[pri:0, instance:demos.AdminLoginTest@1ff8b8f]" name="checkAdminLogin" duration-ms="25157" started-at="2021-09-30T09:02:46Z" finished-at="2021-09-30T09:03:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+      </class> <!-- demos.AdminLoginTest -->
+    </test> <!-- Admin Login Testcase on Firefox -->
+  </suite> <!-- Grid Demo Test Suite -->
+</testng-results>

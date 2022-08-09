@@ -1,0 +1,15 @@
+<suite name="Grid Demo Test Suite" parallel="tests">
+	<test name="Admin Login Testcase on Firefox">
+	<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="demos.AdminLoginTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Admin Login Testcase on Chrome">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="demos.AdminLoginTest"></class>
+		</classes>
+	</test>
+</suite>
