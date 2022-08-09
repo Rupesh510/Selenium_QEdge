@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRM Test Suite" duration-ms="62777" started-at="2021-09-28T03:23:20Z" finished-at="2021-09-28T03:24:23Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunners.AdminLoginTest@880ec60]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunners.EmployeeRegTest@3d8c7aca]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Admin Login TestCase" duration-ms="35968" started-at="2021-09-28T03:23:20Z" finished-at="2021-09-28T03:23:56Z">
+      <class name="testrunners.AdminLoginTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunners.AdminLoginTest@880ec60]" name="setUpClass" is-config="true" duration-ms="432" started-at="2021-09-28T08:53:20Z" finished-at="2021-09-28T08:53:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunners.AdminLoginTest@880ec60]" name="feature" duration-ms="35100" started-at="2021-09-28T08:53:21Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-09-28T08:53:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunners.AdminLoginTest@880ec60]" name="tearDownClass" is-config="true" duration-ms="333" started-at="2021-09-28T08:53:56Z" finished-at="2021-09-28T08:53:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunners.AdminLoginTest -->
+    </test> <!-- Admin Login TestCase -->
+    <test name="Neww Employee Registration Test" duration-ms="26797" started-at="2021-09-28T03:23:56Z" finished-at="2021-09-28T03:24:23Z">
+      <class name="testrunners.EmployeeRegTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunners.EmployeeRegTest@3d8c7aca]" name="setUpClass" is-config="true" duration-ms="29" started-at="2021-09-28T08:53:56Z" finished-at="2021-09-28T08:53:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunners.EmployeeRegTest@3d8c7aca]" name="feature" duration-ms="26716" started-at="2021-09-28T08:53:56Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-09-28T08:54:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Employee Registration]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunners.EmployeeRegTest@3d8c7aca]" name="tearDownClass" is-config="true" duration-ms="46" started-at="2021-09-28T08:54:23Z" finished-at="2021-09-28T08:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunners.EmployeeRegTest -->
+    </test> <!-- Neww Employee Registration Test -->
+  </suite> <!-- OrangeHRM Test Suite -->
+</testng-results>
