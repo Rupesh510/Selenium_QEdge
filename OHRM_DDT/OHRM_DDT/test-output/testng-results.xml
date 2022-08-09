@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRM DataDriven Test Suite" duration-ms="31731" started-at="2021-09-21T02:58:42Z" finished-at="2021-09-21T02:59:14Z">
+    <groups>
+    </groups>
+    <test name="Admin Login TestCase with valid data" duration-ms="21291" started-at="2021-09-21T02:58:42Z" finished-at="2021-09-21T02:59:04Z">
+      <class name="orangehrm.tests.AdminLoginTestwithValiddata">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:orangehrm.tests.AdminLoginTestwithValiddata@546a03af]" name="launchApp" is-config="true" duration-ms="6339" started-at="2021-09-21T08:28:42Z" finished-at="2021-09-21T08:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="checkAdminLogin()[pri:0, instance:orangehrm.tests.AdminLoginTestwithValiddata@546a03af]" name="checkAdminLogin" duration-ms="14540" started-at="2021-09-21T08:28:49Z" finished-at="2021-09-21T08:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:orangehrm.tests.AdminLoginTestwithValiddata@546a03af]" name="closeApp" is-config="true" duration-ms="395" started-at="2021-09-21T08:29:03Z" finished-at="2021-09-21T08:29:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- orangehrm.tests.AdminLoginTestwithValiddata -->
+    </test> <!-- Admin Login TestCase with valid data -->
+    <test name="Admin Login TestCase with invalid data" duration-ms="10390" started-at="2021-09-21T02:59:04Z" finished-at="2021-09-21T02:59:14Z">
+      <class name="orangehrm.tests.AdminLoginTestwithInvaliddata">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:orangehrm.tests.AdminLoginTestwithInvaliddata@3cb5cdba]" name="launchApp" is-config="true" duration-ms="5221" started-at="2021-09-21T08:29:04Z" finished-at="2021-09-21T08:29:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="checkAdminLogin()[pri:0, instance:orangehrm.tests.AdminLoginTestwithInvaliddata@3cb5cdba]" name="checkAdminLogin" duration-ms="4490" started-at="2021-09-21T08:29:09Z" finished-at="2021-09-21T08:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:orangehrm.tests.AdminLoginTestwithInvaliddata@3cb5cdba]" name="closeApp" is-config="true" duration-ms="677" started-at="2021-09-21T08:29:13Z" finished-at="2021-09-21T08:29:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- orangehrm.tests.AdminLoginTestwithInvaliddata -->
+    </test> <!-- Admin Login TestCase with invalid data -->
+  </suite> <!-- OrangeHRM DataDriven Test Suite -->
+</testng-results>
